@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vita Cakes | Cardápio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="topo">
+        <a class="logo" href="index1.html">Vita <span>Cakes</span></a>
+
+        <nav>
+            <a href="index1.html">Início</a>
+            <a class="ativo" href="index2.html">Cardápio</a>
+            <a href="index3.html">Meus pedidos <span class="contador">0</span></a>
+        </nav>
+    </header>
+
+    <main class="pagina">
+        <section class="titulo-pagina">
+            <span class="etiqueta">ESCOLHA SEUS FAVORITOS</span>
+            <h1>Nosso cardápio</h1>
+            <p>Encontre seu doce favorito e adicione ao pedido.</p>
+        </section>
+
+        <section class="secao-produtos">
+            <div class="titulo-secao">
+                <div>
+                    <h2>À pronta entrega</h2>
+                    <p>Doces disponíveis conforme o estoque.</p>
+                </div>
+            </div>
+
+            <div class="grade-produtos">
+
+                <article class="produto">
+                    <img src="presigio.JPEG" alt="Doce Prestígio"
+                         class="foto-produto">
+                    <div class="produto-conteudo">
+                        <span class="disponibilidade">À pronta entrega</span>
+                        <h3>Prestígio</h3>
+                        <p>Doce com sabor de coco e chocolate.</p>
+                        <div class="produto-final">
+                            <strong class="preco">R$ 14,00</strong>
+                            <button class="botao-adicionar"
+                                onclick="adicionarProduto('prestigio')">
+                                + Adicionar
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="produto">
+                    <img src="choco.JPEG"
+                         alt="Doce de chocolate meio amargo"
+                         class="foto-produto">
+                    <div class="produto-conteudo">
+                        <span class="disponibilidade">À pronta entrega</span>
+                        <h3>Chocolate meio amargo</h3>
+                        <p>Uma opção para quem ama o sabor intenso do chocolate.</p>
+                        <div class="produto-final">
+                            <strong class="preco">R$ 14,00</strong>
+                            <button class="botao-adicionar"
+                                onclick="adicionarProduto('chocolate-meio-amargo')">
+                                + Adicionar
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="produto">
+                    <img src="casado.JPEG" alt="Doce Casadinho"
+                         class="foto-produto">
+                    <div class="produto-conteudo">
+                        <span class="disponibilidade">À pronta entrega</span>
+                        <h3>Casadinho</h3>
+                        <p>A combinação de dois sabores em um só doce.</p>
+                        <div class="produto-final">
+                            <strong class="preco">R$ 15,00</strong>
+                            <button class="botao-adicionar"
+                                onclick="adicionarProduto('casadinho')">
+                                + Adicionar
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="produto">
+                    <img src="morang.JPEG"
+                         alt="Ninho com geleia de morango"
+                         class="foto-produto">
+                    <div class="produto-conteudo">
+                        <span class="disponibilidade">À pronta entrega</span>
+                        <h3>Ninho com geleia de morango</h3>
+                        <p>Uma combinação cremosa com o toque do morango.</p>
+                        <div class="produto-final">
+                            <strong class="preco">R$ 15,00</strong>
+                            <button class="botao-adicionar"
+                                onclick="adicionarProduto('ninho-geleia-morango')">
+                                + Adicionar
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="produto">
+                    <img src="ninho.JPEG" alt="Doce Creme de Ninho"
+                         class="foto-produto">
+                    <div class="produto-conteudo">
+                        <span class="disponibilidade">À pronta entrega</span>
+                        <h3>Creme de Ninho</h3>
+                        <p>Doce cremoso com sabor suave de leite em pó.</p>
+                        <div class="produto-final">
+                            <strong class="preco">R$ 14,00</strong>
+                            <button class="botao-adicionar"
+                                onclick="adicionarProduto('creme-ninho')">
+                                + Adicionar
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="produto">
+                    <img src="limao.JPEG"
+                         alt="Tortinha de limão"
+                         class="foto-produto">
+                    <div class="produto-conteudo">
+                        <span class="disponibilidade">À pronta entrega</span>
+                        <h3>Tortinha de limão</h3>
+                        <p>Uma sobremesa com o equilíbrio do doce e do cítrico.</p>
+                        <div class="produto-final">
+                            <strong class="preco">R$ 15,00</strong>
+                            <button class="botao-adicionar"
+                                onclick="adicionarProduto('tortinha-limao')">
+                                + Adicionar
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="produto">
+                    <img src="maracuja.JPEG"
+                         alt="Mousse de maracujá trufado"
+                         class="foto-produto">
+                    <div class="produto-conteudo">
+                        <span class="disponibilidade">À pronta entrega</span>
+                        <h3>Mousse de maracujá trufado</h3>
+                        <p>Uma sobremesa cremosa com maracujá e chocolate.</p>
+                        <div class="produto-final">
+                            <strong class="preco">R$ 15,00</strong>
+                            <button class="botao-adicionar"
+                                onclick="adicionarProduto('mousse-maracuja-trufado')">
+                                + Adicionar
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="secao-produtos encomendas">
+            <div class="titulo-secao">
+                <div>
+                    <h2>Sob encomenda</h2>
+                    <p>Consulte valores, sabores e disponibilidade pelo WhatsApp.</p>
+                </div>
+            </div>
+
+            <div class="grade-produtos">
+
+                <article class="produto">
+                    <img src="uva.JPEG" alt="Surpresa de uva"
+                         class="foto-produto">
+                    <div class="produto-conteudo">
+                        <span class="disponibilidade encomenda-tag">Sob encomenda</span>
+                        <h3>Surpresa de uva</h3>
+                        <p>Consulte as opções e o valor para encomendar.</p>
+                        <button class="botao-adicionar botao-largo"
+                            onclick="encomendarProduto('Surpresa de uva')">
+                            Consultar encomenda
+                        </button>
+                    </div>
+                </article>
+
+                <article class="produto">
+                    <img src="morango.JPEG" alt="Surpresa de morango"
+                         class="foto-produto">
+                    <div class="produto-conteudo">
+                        <span class="disponibilidade encomenda-tag">Sob encomenda</span>
+                        <h3>Surpresa de morango</h3>
+                        <p>Consulte as opções e o valor para encomendar.</p>
+                        <button class="botao-adicionar botao-largo"
+                            onclick="encomendarProduto('Surpresa de morango')">
+                            Consultar encomenda
+                        </button>
+                    </div>
+                </article>
+
+                <article class="produto">
+                    <img src="pave.JPEG" alt="Pavê"
+                         class="foto-produto">
+                    <div class="produto-conteudo">
+                        <span class="disponibilidade encomenda-tag">Sob encomenda</span>
+                        <h3>Pavês</h3>
+                        <p>Consulte sabores, tamanhos e valores.</p>
+                        <button class="botao-adicionar botao-largo"
+                            onclick="encomendarProduto('Pavês')">
+                            Consultar encomenda
+                        </button>
+                    </div>
+                </article>
+
+                <article class="produto">
+                    <img src="escondidinho.JPEG" alt="Escondidinho"
+                         class="foto-produto">
+                    <div class="produto-conteudo">
+                        <span class="disponibilidade encomenda-tag">Sob encomenda</span>
+                        <h3>Escondidinho</h3>
+                        <p>Consulte as opções disponíveis e os valores.</p>
+                        <button class="botao-adicionar botao-largo"
+                            onclick="encomendarProduto('Escondidinho')">
+                            Consultar encomenda
+                        </button>
+                    </div>
+                </article>
+
+                <article class="produto">
+                    <img src="empadao.JPEG" alt="Empadão"
+                         class="foto-produto">
+                    <div class="produto-conteudo">
+                        <span class="disponibilidade encomenda-tag">Sob encomenda</span>
+                        <h3>Empadões</h3>
+                        <p>Consulte tamanhos, sabores e valores.</p>
+                        <button class="botao-adicionar botao-largo"
+                            onclick="encomendarProduto('Empadões')">
+                            Consultar encomenda
+                        </button>
+                    </div>
+                </article>
+
+                <article class="produto">
+                    <img src="cheesecake.JPEG" alt="Cheesecake"
+                         class="foto-produto">
+                    <div class="produto-conteudo">
+                        <span class="disponibilidade encomenda-tag">Sob encomenda</span>
+                        <h3>Cheesecake</h3>
+                        <p>Consulte os sabores e o valor da sua encomenda.</p>
+                        <button class="botao-adicionar botao-largo"
+                            onclick="encomendarProduto('Cheesecake')">
+                            Consultar encomenda
+                        </button>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="aviso-carrinho">
+            <p>Já escolheu seus doces?</p>
+            <a href="index3.html" class="botao">
+                Ver meu pedido (<span class="contador">0</span>)
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <a class="logo logo-rodape" href="index1.html">
+            Vita <span>Cakes</span>
+        </a>
+        <p>Feito com carinho para adoçar seu dia. ♡</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
